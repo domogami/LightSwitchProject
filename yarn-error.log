@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, rmdir '/Users/domogami/Documents/GitHub/LightSwitch/node_modules/.staging/@babel'
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^32.0.0",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
